@@ -1,0 +1,39 @@
+add_executable(smoke-simulator-3D
+        camera/camera.cpp
+        camera/camera.hh
+        light/light.hh
+        light/point_light.cpp
+        light/point_light.hh
+        light/ray.cpp
+        light/ray.hh
+        main/engine.cpp
+        main/engine.hh
+        main/main.cpp
+        main/scene.cpp
+        main/scene.hh
+        objects/object.hh
+        objects/plane.cpp
+        objects/plane.hh
+        objects/sphere.cpp
+        objects/sphere.hh
+        objects/triangle.cpp
+        objects/triangle.hh
+        objects/box.cpp
+        objects/box.hh
+        utils/color.hh
+        utils/image.cpp
+        utils/image.hh
+        utils/point.cpp
+        utils/point.hh
+        utils/texture.hh
+        utils/vector.cpp
+        utils/vector.hh
+        smoke/fluidGrid.h
+        smoke/fluidGrid.cpp
+        utils/Hit.h
+        utils/texture.cpp
+        main/smoke_main.cpp
+        main/smoke_main.h
+)
+
+target_link_libraries(smoke-simulator-3D SFML::Graphics SFML::Window SFML::System)
