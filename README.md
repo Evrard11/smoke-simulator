@@ -10,8 +10,8 @@ Smoke rising from a source at the bottom of the grid, then integrated into a cof
 
 <table>
   <tr>
-    <td><a href="https://github.com/user-attachments/assets/a05bf665-6780-4071-8295-8b2eb1cdbe42"><img src="assets/previews/smoke_coffee_improved.jpg" alt="Coffee smoke simulation"></a></td>
-    <td><a href="https://github.com/user-attachments/assets/3c34289e-406c-4764-b0ab-7b2f92aa307a"><img src="assets/previews/cafe.jpg" alt="Smoke integrated in the Blender scene"></a></td>
+    <td><a href="https://github.com/user-attachments/assets/0bad6403-8b0b-4753-a237-674c86413737"><img src="assets/previews/smoke_coffee_improved.jpg" alt="Coffee smoke simulation"></a></td>
+    <td><a href="https://github.com/user-attachments/assets/52ef8b64-e837-4f79-8e3f-7d2fc344d627"><img src="assets/previews/cafe.jpg" alt="Smoke integrated in the Blender scene"></a></td>
   </tr>
   <tr>
     <td align="center">Simulation</td>
@@ -22,12 +22,12 @@ Smoke rising from a source at the bottom of the grid, then integrated into a cof
 ### Buoyancy
 A grayscale image is loaded as the initial smoke density. The buoyancy force pushes the densest (brightest) areas upward and the image dissolves into smoke.
 
-[![Buoyancy](assets/previews/buoyancy.jpg)](https://github.com/user-attachments/assets/45c396ea-0fce-4e45-a8a4-3897cb08f920)
+[![Buoyancy](assets/previews/buoyancy.jpg)](https://github.com/user-attachments/assets/06d5cc1b-698b-41c6-a3a4-6861f9e963a2)
 
 ### Live demo
 Real-time interactive session: a color image turned into smoke, pushed with the left click, with colored smoke added with the right click.
 
-[![Live demo](assets/previews/live_demo_small.jpg)](https://github.com/user-attachments/assets/87fe49fa-5a5b-4f90-adea-7f7afeef6d07)
+[![Live demo](assets/previews/live_demo_small.jpg)](https://github.com/user-attachments/assets/ca6c458f-e4a4-45dc-894b-a1b982232b93)
 
 ## Requirements
 - CMake (>= 3.10) and a C++20 compiler
@@ -62,4 +62,4 @@ Each frame is saved to `outputs/3D/` as soon as it is rendered, so the result ca
 ## Artistic fail
 Not every run went as planned. This unexpected result came up during development, and we liked it enough to keep it.
 
-[![Artistic fail](assets/previews/fail_artistique.jpg)](https://github.com/user-attachments/assets/38ebad54-5dcb-4dc0-b91e-026806ee53aa)
+[![Artistic fail](assets/previews/fail_artistique.jpg)](https://github.com/user-attachments/assets/1c8085ce-befd-431d-8edf-32941234cdd4)
