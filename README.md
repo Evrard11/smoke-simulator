@@ -3,6 +3,7 @@ ISIM Project, image synthesis of a smoke
 
 Authors : Evrard & Elie
 
+
 ## Results
 
 ### Coffee smoke
